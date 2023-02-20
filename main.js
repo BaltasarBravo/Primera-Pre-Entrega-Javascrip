@@ -269,7 +269,7 @@ function politica() {
 
 
 function calcularDistancia() {
-    let origen = prompt("Ingrese el origen");
+    let origen = prompt("Ingrese el origen" + "\n" + "\n" + "Por los momentos solo se puede medir ingresando unicamente argentina como origen. INGRESE argentina");
     let destino = prompt("Ingrese el destino");
     let distancia = origen + "-" + destino;
     let mensaje = "Le tomaría ";
