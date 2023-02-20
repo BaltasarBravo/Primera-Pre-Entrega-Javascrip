@@ -394,6 +394,19 @@ function calcularDistancia() {
                 }
                 break;
 
+                case "-":
+                if (entrada === 1) {
+                    alert(`${mensaje}` + 7274 / AVION + " horas en avión.");
+                } else if (entrada === 2) {
+                    alert(`${mensaje}` + 7274 / AUTO + " horas en auto.");
+                } else if (entrada === 0) {
+                    opciones();
+                    return;
+                } else {
+                    alert("Seleccione una opción");
+                }
+                break;
+
             default:
                 alert("Ubicación no encontrada.");
                 break;
